@@ -1,0 +1,36 @@
+Abbreviated cryptochronolonic setup
+
+>> create new parent folder
+git clone https://github.com/nickwilliamsnewby/cryptochronolonic.git
+
+open hist_service in text editor
+comment out line 9 'from ephemGravityWrapper import gravity as gbaby'
+
+>> cd into cryptochronolonic folder
+git checkout v1.1
+pip install -r requirements.txt
+
+>> cd to parent folder
+git clone https://github.com/nickwilliamsnewby/neat-python.git
+
+>> cd into neat-python folder
+git checkout pythonv3-rnn-fix
+python setup.py build
+python setup.py install
+
+>> cd to parent folder
+git clone https://github.com/nickwilliamsnewby/pureples.git
+
+>> cd to pureples
+git checkout n-dimensional-tree
+python setup.py build
+python setup.py install
+
+open trading_purples.py in text editor
+length of time on line 60
+number of generations line 147
+
+>> cd into cryptochronolonic folder
+python trading_purples.py
+
+IT'S ALIVE
